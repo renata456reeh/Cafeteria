@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 980px;
+    background-color: rgba(231, 201, 167, 0.671);
+    color: #3F1F0A;
+    margin: 0 auto !important;
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    height: 140px;
+    border-bottom: 2px solid rgba(104, 85, 65, 0.685);
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+}
+
+header  div img {
+    height: 130px;
+}
+
+header h4 {
+    margin-top: 70px;
+}
+
+.conteudo {
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0px 20px 0px;
+}
+
+#sidebar {
+    width: 270px;
+    height: 450px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#bebidas {
+    margin-left: 20px;
+}
+
+#doces {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#content {
+    width: 690px;
+    height: 450px;
+    padding: 15px 0px 15px 15px;
+}
+
+#content div {
+    display: flex;
+}
+
+#content img {
+    width: 225px;
+    height: 140px;
+}
+
+footer {
+    height: 70px;
+    background-color: rgba(104, 85, 65, 0.685);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#direitos {
+    padding: 25px 0px 0px 20px;
+}
+
+#contato {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#dev {
+    padding: 15px 25px 0px 0px;
+    text-align: center;
+}
